@@ -1,0 +1,24 @@
+=== XGBoost Performance Report ===
+Accuracy:          0.7151
+Balanced Accuracy: 0.5578
+
+--- Weighted Averages ---
+Precision: 0.6195
+Recall:    0.7151
+F1-Score:  0.6556
+
+--- Macro Averages ---
+Precision: 0.4832
+Recall:    0.5578
+F1-Score:  0.5113
+
+--- Detailed Class Report ---
+              precision    recall  f1-score   support
+
+           0       0.68      0.97      0.80      1200
+           2       0.77      0.70      0.73      1200
+           3       0.00      0.00      0.00       408
+
+    accuracy                           0.72      2808
+   macro avg       0.48      0.56      0.51      2808
+weighted avg       0.62      0.72      0.66      2808

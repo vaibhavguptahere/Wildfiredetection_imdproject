@@ -1,0 +1,15 @@
+=== MLP Performance Report ===
+Accuracy:  0.7999
+Precision: 0.8088
+Recall:    0.7999
+F1-Score:  0.7990
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.91      0.84      1200
+           2       0.88      0.72      0.79      1200
+           3       0.65      0.72      0.69       408
+
+    accuracy                           0.80      2808
+   macro avg       0.77      0.78      0.77      2808
+weighted avg       0.81      0.80      0.80      2808

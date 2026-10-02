@@ -1,0 +1,21 @@
+# =============================================================================
+# .gitignore — Never commit these to Git
+# =============================================================================
+
+# Secret API keys — NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data & model files (too large for Git)
+data/
+outputs/
+logs/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db

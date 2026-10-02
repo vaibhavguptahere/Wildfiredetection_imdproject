@@ -1,0 +1,97 @@
+=== CNN_1D Performance Report ===
+Accuracy:          0.9163
+Balanced Accuracy: 0.8943
+
+--- Weighted Averages ---
+Precision: 0.9161
+Recall:    0.9163
+F1-Score:  0.9159
+
+--- Macro Averages ---
+Precision: 0.9044
+Recall:    0.8943
+F1-Score:  0.8990
+
+--- Detailed Class Report ---
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93      1200
+           2       0.94      0.92      0.93      1200
+           3       0.86      0.82      0.84       408
+
+    accuracy                           0.92      2808
+   macro avg       0.90      0.89      0.90      2808
+weighted avg       0.92      0.92      0.92      2808
+
+
+
+
+
+
+
+
+=== MLP Performance Report ===
+Accuracy:  0.7999
+Precision: 0.8088
+Recall:    0.7999
+F1-Score:  0.7990
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.91      0.84      1200
+           2       0.88      0.72      0.79      1200
+           3       0.65      0.72      0.69       408
+
+    accuracy                           0.80      2808
+   macro avg       0.77      0.78      0.77      2808
+weighted avg       0.81      0.80      0.80      2808
+
+
+
+
+
+
+
+
+
+
+=== RandomForest Performance Report ===
+Accuracy:  0.7885
+Precision: 0.8259
+Recall:    0.7885
+F1-Score:  0.7885
+
+              precision    recall  f1-score   support
+
+           0       0.77      0.90      0.83      1200
+           2       0.96      0.65      0.77      1200
+           3       0.60      0.88      0.71       408
+
+    accuracy                           0.79      2808
+   macro avg       0.78      0.81      0.77      2808
+weighted avg       0.83      0.79      0.79      2808
+
+
+
+
+
+
+
+
+
+
+=== XGBoost Performance Report ===
+Accuracy:  0.7151
+Precision: 0.6195
+Recall:    0.7151
+F1-Score:  0.6556
+
+              precision    recall  f1-score   support
+
+           0       0.68      0.97      0.80      1200
+           2       0.77      0.70      0.73      1200
+           3       0.00      0.00      0.00       408
+
+    accuracy                           0.72      2808
+   macro avg       0.48      0.56      0.51      2808
+weighted avg       0.62      0.72      0.66      2808

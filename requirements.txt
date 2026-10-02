@@ -1,0 +1,8 @@
+pandas
+numpy
+xgboost
+scikit-learn
+tensorflow
+requests
+cdsapi
+xarraypython-dotenv
