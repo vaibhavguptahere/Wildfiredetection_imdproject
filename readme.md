@@ -403,21 +403,6 @@ This project is released under MIT License.
 
 **Built with ❤️ for wildfire detection in Uttarakhand, India**
 
-<!--  -->
-
-API's KEYS
-
-GEE_PROJECT = os.getenv("GEE_PROJECT", "utopian-splicer-469005-f3")
-FIRMS_MAP_KEY = os.getenv(
-"FIRMS_MAP_KEY", "c9e7ff13ad9f8cb69f8bc5577c6604dd"
-) # fallback to known key
-CDS_API_URL = os.getenv("CDS_API_URL", "https://cds.climate.copernicus.eu/api")
-CDS_API_KEY = os.getenv("CDS_API_KEY", "2b00e66a-0474-4405-8978-07678c784a2b")
-
-.cdsapric file
-url: https://cds.climate.copernicus.eu/api
-key: 2b00e66a-0474-4405-8978-07678c784a2b
-
 
 <!-- Question to ask from the claude -->
 
